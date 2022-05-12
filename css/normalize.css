@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  /*
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Arvo', serif;
+  --font-code: 'Roboto', monospace;*/
+  --bg-color: #18191f;
+  --font-color: #ffffff;
+  --btn-bg-color: #ffffff;
+  --accent-color: #be7efe;
+  --header-shadow: #000 0px 0px 5px;
+   
+  /* Set neon color */
+  --neon-text-color: #f40;
+  --neon-border-color: #08f;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

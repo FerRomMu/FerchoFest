@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FerchoFest</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script/intro.js" defer></script>
+  <script src="script/countdown.js" defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+  <!--                  INICIO ANIMACION                          -->
+  <section class="intro">
+    <h1 class="logo">
+      <span class="logo-parts">F</span>
+      <span class="logo-parts">e</span>
+      <span class="logo-parts">r</span>
+      <span class="logo-parts">c</span>
+      <span class="logo-parts">h</span>
+      <span class="logo-parts">o</span>
+      <span class="logo-parts">F</span>
+      <span class="logo-parts">e</span>
+      <span class="logo-parts">s</span>
+      <span class="logo-parts">t</span>
+      <span class="logo-parts"> </span>
+      <span class="logo-parts">v0.29</span>
+    </h1>
+    <p>
+      <span class="date-parts hidden">0001 1100.0000 0101.0001 0110</span>
+      <span class="date-parts hidden">0001 1100.0000 0101.0001 0110</span>
+      <span class="date-parts hidden">0001 11_0.0000 01_1.0001 01_2</span>
+      <span class="date-parts hidden">0001 1__4.0000 0__5.0001 0__6</span>
+      <span class="date-parts hidden">0001 __12.0000 ___5.0001 ___6</span>
+      <span class="date-parts hidden">000_ __28.000_ ___5.000_ __22</span>
+      <span class="date-parts hidden">____ __28.____ ___5.____ __22</span>
+      <span class="date-parts hidden">28.5.22</span>
+    </p>
+    <p>LOADING...</p>
+  </section>
+  <!--                      FIN Animacion inicial                     -->
+
+  <!--                            Clock                               -->
+  <main class="main">
+    <div class="FerchoTitle">
+      <div class="big">FerchoFest</div>
+      <div class="small">Neon Edition <span>v0.29</span></div>
+    </div>
+
+    <section class="containerClock">
+      <div class="countdown">
+        <ul
+          id="countdown"
+          class="count-down"
+          data-date="May 29, 2022 3:00:00 AM UTC"
+        >
+          <li class="clock-item">
+            <span class="count-number days">20</span>
+            <p class="count-text">Days</p>
+          </li>
+
+          <li class="clock-item">
+            <span class="count-number hours">20</span>
+            <p class="count-text">Hour</p>
+          </li>
+
+          <li class="clock-item">
+            <span class="count-number minutes">20</span>
+            <p class="count-text">Min</p>
+          </li>
+
+          <li class="clock-item">
+            <span class="count-number seconds">20</span>
+            <p class="count-text">Sec</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
