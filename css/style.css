@@ -265,7 +265,8 @@
 .card {
   background: #191c29;
   width: var(--card-width);
-  height: var(--card-height);
+  height: 100%;
+  min-height: var(--card-height);
   padding: 3px 3vw;
   position: relative;
   border-radius: 6px;
