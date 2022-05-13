@@ -18,6 +18,10 @@ html {
   /* Set neon color */
   --neon-text-color: #f40;
   --neon-border-color: #08f;
+
+  /* Window */
+  --card-height: 60vh;
+  --card-width: 80vw;
 }
 
 *,

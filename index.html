@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="script/intro.js" defer></script>
   <script src="script/countdown.js" defer></script>
+  <script src="script/window.js" defer></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,100&display=swap" rel="stylesheet">
 </head>
@@ -30,7 +31,7 @@
       <span class="logo-parts">s</span>
       <span class="logo-parts">t</span>
       <span class="logo-parts"> </span>
-      <span class="logo-parts">v0.29</span>
+      <span class="logo-parts">v1.29</span>
     </h1>
     <p>
       <span class="date-parts hidden">0001 1100.0000 0101.0001 0110</span>
@@ -51,7 +52,7 @@
   <!--                            Titulo                              -->
     <div class="FerchoTitle">
       <div class="big">FerchoFest</div>
-      <div class="small">Neon Edition <span>v0.29</span></div>
+      <div class="small">Neon Edition <span>v1.29</span></div>
     </div>
 
   <!--                            Clock                               -->
@@ -87,21 +88,21 @@
 
   <!--                            Botones                               -->
     <section class="Botones">
-      <a href="#Inicio">
+      <a id="infoB">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
           Info
       </a>
-      <a href="#">
+      <a href="https://www.instagram.com/_fer_rom/">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
           Contacto
       </a>
-      <a href="#">
+      <a id="faqB">
           <span></span>
           <span></span>
           <span></span>
@@ -110,4 +111,35 @@
       </a>
     </section>
   </main>
+
+  <section class="window">
+    <div id="info" class="card hidden">
+      <h2>Introduccion</h2>
+      <br>
+      <p>Este año cumplo 29 y lo quiero festejar con todos. 
+      La joda es la noche del 28 de mayo a partir de las 12.
+      Quienes viven lejos pueden venir a previar antes. Tambien
+      se pueden quedar a dormir post joda el domingo si estan muy
+      quebrados para irse y levantar campamento por la tarde cuando
+      esten aptos.</p>
+      <br>
+      <h2>Data</h2>
+      <br>
+      <p>-La tematica es neon. Si tenes algo fluorescente traelo. Si
+      no, te doy algo al entrar no pasa nada.</p>
+      <p>-Cada quien debe traer algo de escabio para aportar
+      a la joda. Si no tomas alcohol traete una gaseosa.</p>
+      <p>-Si traes a alguien tenes que avisarme previamente.
+      Si yo no di el ok antes, no pasan. Sos responsable de esa
+      persona.</p>
+      <p>-Si bien son todos gente piola, no esta de mas decir
+      que se festeja en lo de mis viejos, así que respeten la 
+      integridad de la casa xD.</p>
+    </div>
+    <div id="faq" class="card hidden">
+      <h2>Preguntas:</h2>
+      <p>Alta paja seguir programando... si tenes preguntas hablame al insta jaja.</p>
+    </div>
+  </section>
+
 </body>
