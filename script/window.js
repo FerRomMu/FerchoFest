@@ -6,11 +6,13 @@ w = document.querySelector(".window");
 
 function show(card) {
   card.classList.remove('hidden');
+  w.classList.remove('hidden');
   w.classList.add('show');
 }
 
 function hideMenu(card) {
   w.classList.remove('show');
+  w.classList.add('hidden');
   card.classList.add('hidden');
 }
 
