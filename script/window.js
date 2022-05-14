@@ -13,11 +13,11 @@ function show(card) {
 function hideMenu(card) {
   w.classList.remove('show');
   w.classList.add('hidden');
-  card.classList.add('hidden');
+  faq.classList.add('hidden');
+  info.classList.add('hidden');
 }
 
 buttonInfo.addEventListener('click', () => show(info));
 buttonFaq.addEventListener('click', () => show(faq));
-faq.addEventListener('click', () => hideMenu(faq));
-info.addEventListener('click', () => hideMenu(info));
+w.addEventListener('click', () => hideMenu());
 
